@@ -18,3 +18,33 @@ print(animals)'''
 
 dance(" etigi")'''
 
+'''def say_hi(name):
+    print("my name is " + name)
+
+say_hi("Skibii")'''
+
+'''A piece of code that returns the name univelcity after passing some arguments
+def call_me(name, address):
+    print("my name is " + name + ", I am located at " + address + ".")
+
+call_me("Univelcity", "42 Montgomery road Yaba")
+'''
+
+'''name = "Staticmajor"
+for letter in name:
+    print(letter)'''
+
+
+'''
+This is an if conditional
+dog = False
+cat = True
+
+if dog and not(cat):
+    print("this is a dog")
+elif not(dog) and cat:
+    print("this is a cat")
+else:
+    print("This is neither a cat nor a dog")
+    '''
+
