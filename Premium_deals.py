@@ -10080,6 +10080,7 @@ for date in transaction_dates:
             transaction_history.append(transaction)
 
 
+
 #FILE HANDLING
 with open('Edited_premium_deals.txt', 'w', encoding="utf-8") as document:
     for item in transaction_history:

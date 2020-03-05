@@ -1,0 +1,22 @@
+.text-welcome {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 20px;
+}
+
+.card-custom {
+    margin-top: 15px;
+}
+
+.card-custom-header {
+    color: blue;
+    text-transform: uppercase;
+    font-family: 'Trade Winds', cursive;
+}
+
+.navbar-brand {
+    font-family: 'Abril Fatface', cursive;
+}

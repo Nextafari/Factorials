@@ -141,3 +141,50 @@ def test_questions(self):
 
 test_questions(question1)
 '''
+
+''' name = "John Doe"
+if len(name) < 3:
+    print("Name must be at least 3 characters long")
+elif len(name) > 50:
+    print("Name can be a maximum of 50 characters")
+else:
+    print("Name looks good!") '''
+
+#this will take in weight and also take in pound or kg and give an output with the weight in either pound or kg
+#if (l)bs multiply by 3.5, else if (k)g multiply by 2.5
+
+'''
+#This is a weight converter App
+weight = input("Please enter your weight: ")
+unit = input("lbs or kg: ")
+
+if weight and unit == "lbs":
+    print (str(int(weight) * 3.5) + "lbs")
+elif weight and unit == "kg":
+    print (str(int(weight) * 2.5) + "Kg")
+else:
+    print("You have entered an invalid entry!")'''
+
+
+#This for loop is going to print the letter F while looping and printing the letter x
+'''numbers = [5, 2, 5, 2, 2]
+#numbers1 = [2, 2, 5, 2, 5]
+for number in numbers:
+    print("x" * number)
+
+#This does the same thing as the code above, except that this one is done using a nested loop
+numbers = [5, 2, 5, 2, 2]
+for number in numbers:
+    output  = ''
+    for i in range(number):
+        output += "x"
+    print(output) 
+'''
+#A program to get the highest number in a list
+'''list1 = [5, 10, 15, 20, 25, 30]
+maxi = list1[0]
+for i in list1:
+    if i > maxi:
+        maxi = i
+print(maxi)'''
+
